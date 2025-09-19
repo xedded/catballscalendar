@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import CalendarMonth from '@/components/SimpleCatBallsCalendar';
+import CalendarMonth from '@/components/AuthenticCatBallsCalendar';
 
 export default function Home() {
   const [currentDate, setCurrentDate] = useState(new Date());
