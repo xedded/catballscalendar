@@ -10,84 +10,84 @@ interface CalendarMonthProps {
 const CAT_BALLS_IMAGES = [
   {
     month: 1,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'Januari - Vintriga Cat Balls',
     description: 'Frusna och roliga ❄️'
   },
   {
     month: 2,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'Februari - Valentine Cat Balls',
     description: 'Kärleksfulla kulor 💖'
   },
   {
     month: 3,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'Mars - Vår Cat Balls',
     description: 'Blomstrande kulor 🌸'
   },
   {
     month: 4,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'April - Påsk Cat Balls',
     description: 'Äggformade 🐰'
   },
   {
     month: 5,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'Maj - Blomster Cat Balls',
     description: 'Vårfriska kulor 🌺'
   },
   {
     month: 6,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'Juni - Midsommar Cat Balls',
     description: 'Soliga kulor ☀️'
   },
   {
     month: 7,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'Juli - Semester Cat Balls',
     description: 'Avslappnade kulor 🏖️'
   },
   {
     month: 8,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'Augusti - Sensommar Cat Balls',
     description: 'Mogna kulor 🌾'
   },
   {
     month: 9,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'September - Höst Cat Balls',
     description: 'Gyllene kulor 🍂'
   },
   {
     month: 10,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'Oktober - Halloween Cat Balls',
     description: 'Spöklika kulor 🎃'
   },
   {
     month: 11,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/fffa6553-72de-40ed-93d1-025ca68de051.gif',
+    url: '/images/cat-balls-january.svg',
     fallback: '/images/cat-balls-january.svg',
     title: 'November - Mörka Cat Balls',
     description: 'Vintermörka kulor 🌙'
   },
   {
     month: 12,
-    url: 'https://storage.uk.cloud.ovh.net/v1/AUTH_f3100dad5acd4df793f8778d19bcea24/bvna/73944e6e-992a-4a74-9b6c-4daf356ecf91.gif',
+    url: '/images/cat-balls-february.svg',
     fallback: '/images/cat-balls-february.svg',
     title: 'December - Jul Cat Balls',
     description: 'Festliga kulor 🎄'
@@ -224,97 +224,97 @@ export default function CalendarMonth({ currentDate }: CalendarMonthProps) {
   };
 
   return (
-    <div className="bg-purple-50">
-      {/* Äkta Cat Balls bild för månaden */}
-      <div className="px-6 py-4 bg-gradient-to-b from-purple-100 to-purple-200">
-        <div className="max-w-md mx-auto bg-white rounded-lg shadow-lg border-2 border-purple-300 overflow-hidden">
-          <div className="relative h-64 w-full">
+    <div className="bg-gray-50 min-h-screen">
+      {/* Material Design Cat Balls bild för månaden */}
+      <div className="px-4 py-6">
+        <div className="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+          <div className="relative h-48 sm:h-56 w-full bg-gradient-to-br from-indigo-100 to-purple-100">
             <CatBallsImage imageData={currentMonthImage} />
           </div>
 
-          <div className="p-4 text-center bg-purple-100">
-            <h3 className="text-lg font-serif font-bold text-purple-900 mb-1">
+          <div className="p-4 text-center">
+            <h3 className="text-lg font-medium text-gray-900 mb-1">
               {currentMonthImage.title}
             </h3>
-            <p className="text-sm text-purple-700 italic">
+            <p className="text-sm text-gray-600">
               {currentMonthImage.description}
             </p>
-            <div className="mt-2 text-xs text-pink-600">
-              🐱 Äkta veterinära cat balls (med backup)! 🐱
+            <div className="mt-3 inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-700">
+              🎨 Humoristisk Cat Balls
             </div>
           </div>
         </div>
       </div>
 
-      {/* Kalender */}
-      <div className="p-6">
-        {/* Veckodagar */}
-        <div className="grid grid-cols-7 gap-1 mb-2">
-          {weekdays.map((day) => (
-            <div
-              key={day}
-              className="p-2 text-center font-serif font-bold text-purple-900 bg-purple-200 border border-purple-300"
-            >
-              {day.slice(0, 3)}
-            </div>
-          ))}
-        </div>
-
-        {/* Kalenderdagar */}
-        <div className="grid grid-cols-7 gap-1">
-          {calendarDays.map((day, index) => {
-            if (day === null) {
-              return <div key={index} className="h-20 bg-purple-100 border border-purple-200"></div>;
-            }
-
-            const passed = isDatePassed(day);
-            const isCurrentDay = isToday(day);
-            const holiday = isHoliday(day);
-
-            return (
+      {/* Material Design Kalender */}
+      <div className="px-4 pb-6">
+        <div className="max-w-sm mx-auto bg-white rounded-2xl shadow-lg overflow-hidden">
+          {/* Veckodagar */}
+          <div className="grid grid-cols-7 gap-0 bg-indigo-50">
+            {weekdays.map((day) => (
               <div
                 key={day}
-                className={`
-                  h-20 border-2 border-purple-300 bg-white relative p-1 flex flex-col
-                  ${isCurrentDay ? 'border-purple-600 bg-purple-100' : ''}
-                  ${holiday ? 'bg-red-50' : ''}
-                `}
+                className="py-3 text-center text-xs font-medium text-gray-600 uppercase tracking-wide"
               >
-                <div className={`
-                  text-lg font-serif font-bold
-                  ${passed ? 'text-gray-400' : 'text-purple-900'}
-                  ${isCurrentDay ? 'text-purple-800' : ''}
-                  ${holiday ? 'text-red-700' : ''}
-                `}>
-                  {day}
-                </div>
-
-                {passed && (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <div className="text-red-500 text-3xl font-bold transform rotate-12">✗</div>
-                  </div>
-                )}
-
-                {holiday && (
-                  <div className="text-xs text-red-600 font-bold mt-auto">
-                    {holiday.length > 10 ? holiday.substring(0, 10) + '...' : holiday}
-                  </div>
-                )}
-
-                {isCurrentDay && (
-                  <div className="absolute top-0 right-0 w-3 h-3 bg-purple-600 rounded-full"></div>
-                )}
+                {day.slice(0, 2)}
               </div>
-            );
-          })}
+            ))}
+          </div>
+
+          {/* Kalenderdagar */}
+          <div className="grid grid-cols-7 gap-0">
+            {calendarDays.map((day, index) => {
+              if (day === null) {
+                return <div key={index} className="h-12 sm:h-14 bg-white"></div>;
+              }
+
+              const passed = isDatePassed(day);
+              const isCurrentDay = isToday(day);
+              const holiday = isHoliday(day);
+
+              return (
+                <div
+                  key={day}
+                  className={`
+                    h-12 sm:h-14 border-t border-gray-100 relative flex items-center justify-center transition-colors
+                    ${isCurrentDay ? 'bg-indigo-500 text-white' : 'bg-white text-gray-900'}
+                    ${holiday && !isCurrentDay ? 'bg-red-50 text-red-700' : ''}
+                    ${passed && !isCurrentDay ? 'text-gray-300' : ''}
+                  `}
+                >
+                  <span className={`text-sm font-medium ${
+                    isCurrentDay ? 'text-white' : ''
+                  }`}>
+                    {day}
+                  </span>
+
+                  {passed && !isCurrentDay && (
+                    <div className="absolute inset-0 flex items-center justify-center">
+                      <div className="text-red-400 text-lg font-light">✗</div>
+                    </div>
+                  )}
+
+                  {holiday && !isCurrentDay && (
+                    <div className="absolute bottom-0 left-0 right-0 h-1 bg-red-400"></div>
+                  )}
+
+                  {isCurrentDay && (
+                    <div className="absolute -top-1 -right-1 w-2 h-2 bg-white rounded-full"></div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
 
-      {/* Rolig footer */}
-      <div className="px-6 pb-4 text-center">
-        <p className="text-xs text-purple-600 italic">
-          😸 Autentiska veterinära cat balls med humoristiska backups! 😸
-        </p>
+      {/* Material footer */}
+      <div className="px-4 pb-6 text-center">
+        <div className="max-w-sm mx-auto">
+          <p className="text-xs text-gray-500">
+            😸 Den mest charmiga kalendern med extra humor 😸
+          </p>
+        </div>
       </div>
     </div>
   );
