@@ -1,0 +1,45 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Winter background -->
+  <rect width="600" height="400" fill="#e6f3ff"/>
+
+  <!-- Snow flakes -->
+  <circle cx="50" cy="50" r="3" fill="white" opacity="0.8"/>
+  <circle cx="150" cy="80" r="2" fill="white" opacity="0.9"/>
+  <circle cx="250" cy="60" r="3" fill="white" opacity="0.7"/>
+  <circle cx="350" cy="90" r="2" fill="white" opacity="0.8"/>
+  <circle cx="450" cy="40" r="3" fill="white" opacity="0.9"/>
+  <circle cx="550" cy="70" r="2" fill="white" opacity="0.8"/>
+
+  <!-- Cat silhouette -->
+  <g transform="translate(200,150)">
+    <!-- Cat body -->
+    <ellipse cx="100" cy="80" rx="80" ry="30" fill="#4a4a4a"/>
+
+    <!-- Cat head -->
+    <circle cx="40" cy="60" r="25" fill="#4a4a4a"/>
+
+    <!-- Cat ears -->
+    <polygon points="25,45 20,30 35,35" fill="#4a4a4a"/>
+    <polygon points="45,35 60,30 55,45" fill="#4a4a4a"/>
+
+    <!-- Cat tail -->
+    <path d="M 180,80 Q 200,60 220,80 Q 240,100 250,120" fill="none" stroke="#4a4a4a" stroke-width="8"/>
+
+    <!-- The "balls" area with winter theme -->
+    <circle cx="120" cy="95" r="12" fill="#ff9999" stroke="#cc6666" stroke-width="2"/>
+    <circle cx="140" cy="95" r="12" fill="#ff9999" stroke="#cc6666" stroke-width="2"/>
+
+    <!-- Snowflake on the balls for winter theme -->
+    <text x="130" y="100" font-family="Arial" font-size="12" fill="white" text-anchor="middle">❄</text>
+  </g>
+
+  <!-- Title -->
+  <text x="300" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+    Januari - Vintriga Cat Balls
+  </text>
+
+  <!-- Subtitle -->
+  <text x="300" y="350" font-family="serif" font-size="16" fill="#34495e" text-anchor="middle">
+    Frusna och roliga! ❄️🐱
+  </text>
+</svg>

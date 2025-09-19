@@ -1,0 +1,43 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Valentine background -->
+  <rect width="600" height="400" fill="#ffe6f0"/>
+
+  <!-- Hearts floating around -->
+  <text x="80" y="60" font-size="20" fill="#ff69b4">💖</text>
+  <text x="480" y="80" font-size="16" fill="#ff1493">💕</text>
+  <text x="120" y="320" font-size="18" fill="#ff69b4">💗</text>
+  <text x="450" y="300" font-size="14" fill="#ff1493">💖</text>
+
+  <!-- Cat silhouette -->
+  <g transform="translate(200,150)">
+    <!-- Cat body -->
+    <ellipse cx="100" cy="80" rx="80" ry="30" fill="#8b4513"/>
+
+    <!-- Cat head -->
+    <circle cx="40" cy="60" r="25" fill="#8b4513"/>
+
+    <!-- Cat ears -->
+    <polygon points="25,45 20,30 35,35" fill="#8b4513"/>
+    <polygon points="45,35 60,30 55,45" fill="#8b4513"/>
+
+    <!-- Cat tail -->
+    <path d="M 180,80 Q 200,60 220,80 Q 240,100 250,120" fill="none" stroke="#8b4513" stroke-width="8"/>
+
+    <!-- The "balls" area with valentine theme -->
+    <circle cx="120" cy="95" r="12" fill="#ff69b4" stroke="#ff1493" stroke-width="2"/>
+    <circle cx="140" cy="95" r="12" fill="#ff69b4" stroke="#ff1493" stroke-width="2"/>
+
+    <!-- Heart on the balls -->
+    <text x="130" y="102" font-family="Arial" font-size="14" fill="#fff" text-anchor="middle">💝</text>
+  </g>
+
+  <!-- Title -->
+  <text x="300" y="50" font-family="serif" font-size="24" font-weight="bold" fill="#c2185b" text-anchor="middle">
+    Februari - Valentine Cat Balls
+  </text>
+
+  <!-- Subtitle -->
+  <text x="300" y="350" font-family="serif" font-size="16" fill="#c2185b" text-anchor="middle">
+    Kärleksfulla kulor! 💖🐱
+  </text>
+</svg>
