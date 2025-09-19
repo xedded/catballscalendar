@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import CalendarMonth from '@/components/CalendarMonthProfessional';
+import CalendarMonth from '@/components/SimpleCatBallsCalendar';
 
 export default function Home() {
   const [currentDate, setCurrentDate] = useState(new Date());
@@ -15,68 +15,54 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-slate-100 to-slate-200">
-      <div className="max-w-6xl mx-auto">
-        <div className="bg-white shadow-xl border border-slate-300 overflow-hidden">
-          {/* Professional header */}
-          <div className="bg-gradient-to-r from-slate-800 to-slate-900 text-center py-8 px-6">
-            <h1 className="text-3xl font-bold text-white mb-3 tracking-wide">
-              Veterinary Anatomy Calendar
+    <div className="min-h-screen bg-gradient-to-b from-purple-50 to-purple-100 p-4">
+      <div className="max-w-4xl mx-auto">
+        <div className="bg-white rounded-lg shadow-2xl border-4 border-purple-900 overflow-hidden">
+          {/* Humoristisk header */}
+          <div className="bg-gradient-to-r from-purple-800 to-pink-800 text-center py-6 px-4">
+            <h1 className="text-4xl font-serif text-purple-100 mb-2 tracking-wide">
+              🐱 Cat Balls Calendar 🐱
             </h1>
-            <p className="text-slate-200 text-lg mb-2">
-              Professional Feline Reproductive System Reference
+            <p className="text-purple-200 text-lg font-serif italic">
+              En klassisk väggalmanacka med extra charm
             </p>
-            <p className="text-slate-300 text-sm">
-              Educational documentation for veterinary professionals and students
+            <p className="text-purple-300 text-sm mt-2">
+              The ultimate inside joke calendar
             </p>
           </div>
 
-          {/* Professional navigation */}
-          <div className="bg-slate-50 border-b border-slate-200 px-8 py-6 flex justify-between items-center">
+          {/* Navigation */}
+          <div className="bg-purple-100 border-b-2 border-purple-300 px-6 py-4 flex justify-between items-center">
             <button
               onClick={goToPreviousMonth}
-              className="bg-slate-700 hover:bg-slate-800 text-white px-8 py-3 rounded-md font-medium text-lg transition-all duration-200 shadow-sm hover:shadow-md"
+              className="bg-purple-700 hover:bg-purple-800 text-white px-6 py-2 rounded-lg font-serif text-lg transition-colors"
             >
-              ← Previous Month
+              ← Föregående
             </button>
 
-            <h2 className="text-2xl font-bold text-slate-800 tracking-wide capitalize">
+            <h2 className="text-3xl font-serif text-purple-900 tracking-wide">
               {currentDate.toLocaleDateString('sv-SE', { month: 'long', year: 'numeric' })}
             </h2>
 
             <button
               onClick={goToNextMonth}
-              className="bg-slate-700 hover:bg-slate-800 text-white px-8 py-3 rounded-md font-medium text-lg transition-all duration-200 shadow-sm hover:shadow-md"
+              className="bg-purple-700 hover:bg-purple-800 text-white px-6 py-2 rounded-lg font-serif text-lg transition-colors"
             >
-              Next Month →
+              Nästa →
             </button>
           </div>
 
           {/* Calendar component */}
           <CalendarMonth currentDate={currentDate} />
 
-          {/* Professional footer */}
-          <div className="bg-slate-50 border-t border-slate-200 px-8 py-6">
-            <div className="text-center space-y-2">
-              <div className="flex items-center justify-center space-x-4 text-sm text-slate-600">
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
-                  Veterinary Educational Source
-                </span>
-                <span className="flex items-center">
-                  <span className="w-2 h-2 bg-blue-500 rounded-full mr-2"></span>
-                  Professional Reference Material
-                </span>
-              </div>
-              <p className="text-xs text-slate-500 max-w-2xl mx-auto leading-relaxed">
-                This educational calendar features authentic veterinary anatomy diagrams sourced from 
-                the British Veterinary Nursing Association. All content is intended for educational 
-                and professional development purposes in veterinary medicine.
-              </p>
-              <div className="pt-2 border-t border-slate-300 text-xs text-slate-400">
-                Licensed Educational Content | Professional Use Only
-              </div>
-            </div>
+          {/* Rolig footer */}
+          <div className="bg-purple-100 border-t-2 border-purple-300 px-6 py-4 text-center">
+            <p className="text-purple-800 text-sm font-serif">
+              😸 Den mest charmiga kalendern du aldrig visste att du behövde! 😸
+            </p>
+            <p className="text-purple-600 text-xs mt-1">
+              Inside joke appreciation society approved
+            </p>
           </div>
         </div>
       </div>
