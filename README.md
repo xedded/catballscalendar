@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐱 Cat Balls Calendar 🐱
 
-## Getting Started
+A classic vintage wall almanac featuring authentic veterinary cat testicle imagery for educational purposes. The ultimate inside joke calendar combining humor with genuine feline anatomical education!
 
-First, run the development server:
+## 🎯 Features
+
+### 📅 Classic Almanac Design
+- Vintage wall calendar aesthetic with warm amber color scheme
+- Monthly navigation with elegant serif typography
+- Traditional Swedish almanac format
+
+### 🏥 Authentic Veterinary Images  
+- 12 months of genuine cat testicle imagery from veterinary sources
+- Educational diagrams from British Veterinary Nursing Association
+- Professional anatomical illustrations showing feline reproductive system
+- Each month features authentic "Cat Balls" with seasonal themes
+
+### 🇸🇪 Swedish Functionality
+- Complete Swedish holidays throughout the year
+- Red X marks for all past dates
+- Today's date highlighted with special indicator
+- Swedish month names and date formatting
+
+### ✨ Interactive Features
+- Smooth month-to-month navigation
+- Responsive design for all devices
+- Holiday tooltips and descriptions
+- Educational source attribution
+
+## 🌐 Live Demo
+
+**🔗 Production Site:** https://catballscalendar.vercel.app
+
+## 🚀 Getting Started
 
 ```bash
+# Clone the repository
+git clone https://github.com/xedded/catballscalendar.git
+cd catballscalendar
+
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the calendar.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🏗️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling and responsive design
+- **Vercel** - Deployment and hosting
 
-## Learn More
+## 📸 Authentic Source Material
 
-To learn more about Next.js, take a look at the following resources:
+All cat testicle images are sourced from legitimate veterinary educational resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **British Veterinary Nursing Association** - Professional anatomical diagrams
+- **Veterinary reproduction pathology sources** - Educational illustrations
+- **Licensed veterinary content** - Authentic medical imagery
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+*Educational purposes only - genuine veterinary anatomy reference*
 
-## Deploy on Vercel
+## 🎨 Design Philosophy
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project celebrates the intersection of:
+- **Humor & Education** - Inside jokes with real learning value
+- **Vintage Aesthetics** - Classic almanac design principles  
+- **Professional Sources** - Authentic veterinary imagery
+- **Swedish Culture** - Traditional holiday calendar format
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📅 Calendar Features
+
+### Monthly Themes
+Each month features authentic veterinary diagrams with seasonal descriptions:
+- **January** - "Vintriga pungkulor" (Winter testicles)
+- **February** - "Kärleksfulla pungkulor" (Loving testicles) 
+- **March** - "Våriga pungkulor" (Spring testicles)
+- And so on...
+
+### Holiday Integration
+- Complete Swedish holiday calendar
+- Red highlighting for special dates
+- Tooltip descriptions for each holiday
+- Traditional Swedish naming conventions
+
+## 🔧 Development
+
+```bash
+# Build for production
+npm run build
+
+# Start production server
+npm start
+
+# Deploy to Vercel
+vercel --prod
+```
+
+## 📄 License
+
+Educational content sourced from public veterinary resources. 
+Built for entertainment and educational purposes.
+
+## 🙏 Acknowledgments
+
+- **British Veterinary Nursing Association** for authentic anatomical diagrams
+- **Veterinary educational community** for professional source material
+- **Swedish holiday calendar** for cultural accuracy
+- **Inside joke appreciation society** for the inspiration
+
+---
+
+*"The most educational calendar you never knew you needed"* 🐾
+
+**Live Site:** https://catballscalendar.vercel.app  
+**Repository:** https://github.com/xedded/catballscalendar
